@@ -131,12 +131,122 @@ top: 5px;
    position: relative;
    width: 100%;
     /*height: 407px;*/
-    height:600px;
+    height:500px;
     background: url('../img/ingenieria.jpg') center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
+}
+.fondo{
+  width: 100%;
+  height: 500px;
+  /*background-color: rgba(0,0,0,.5);*/
+  background-color: rgba(19,41,58,.5);
+  overflow: hidden;
+}
+.fondo p{
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(245,223,56);
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.container0 {
+  /*border: 2px red solid;*/
+  /*display: flex;*/
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  text-align: center;
+  /*min-height: 100vh;*/
+}
+.texto{
+  margin-top: 9%;
+}
+
+.container2 {
+  /*border: 2px red solid;*/
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /*width: 100%;*/
+  margin: 0 auto;
+  /*min-height: 100vh;*/
+}
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(19,41,58);
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.banner2{
+  margin-top: 2%;
+  position: relative;
+   width: 100%;
+    /*height: 407px;*/
+    height:450px;
+    background: url('../img/construc2.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banner2 p{
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(245,223,56);
+  width: 55%;
+  /*margin: 0 auto;*/
+  margin-left: 2%;
+  margin-top: 5%;
+}
+.container3 {
+  /*border: 2px red solid;*/
+  width: 55%;
+  margin-left: 2%;
+  margin-top: 5%;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  /*min-height: 100vh;*/
+  /*overflow: hidden;*/
 }
 /*-----------nosotros------------*/
 
