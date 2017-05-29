@@ -38,10 +38,10 @@
     </div><!--Fim da Row1 -->
     <div class="row">
       <ul id="menu-topo">
-        <li><a href="index.php">INÍCIO</a></li>
-        <li><a href="portfolio.php">NOSOTROS</a></li>
-        <li><a href="como-feito.php">SERVICIOS</a></li>
-        <li><a href="#contato" class="dentro">CONTACTO</a></li>
+        <li><a href="index.php">INICIO</a></li>
+        <li><a href="vistas/nosotros.php">NOSOTROS</a></li>
+        <li><a href="vistas/servicios.php">SERVICIOS</a></li>
+        <li><a href="vistas/contato.php" class="dentro">CONTACTO</a></li>
       </ul>
     </div>
   </div><!--Fim da coontainer -->
