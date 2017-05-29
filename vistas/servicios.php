@@ -87,7 +87,7 @@
               <div class="panel text-center">
                 <h3>Cursos de Capacitación</h3>
                 <p>aportar a las organizaciones un plan de desarrollo medioambiental para su plantilla. Antes de ofertar cualquier curso, realizamos una serie de entrevistas para identificar las necesidades y expectativas formativas de la organización, elaborar el programa formativo acorde a sus necesidades, definir las acciones a realizar e implementar el plan definido.</p>
-                <img src="../img/curso.png" class="center-block img-responsive">
+                <img src="../img/hola2.png" class="center-block img-responsive">
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
@@ -118,7 +118,7 @@
               <div class="panel text-center">
                 <h3>Gestión de Licencias y Trámites Ambientales</h3>
                 <p>Lo apoyamos en el trámite y lo que está obligado a presentar ante las instituciones Federales, Estatales y Municipales.</p>
-                <img src="../img/licencia.png" class="center-block img-responsive">
+                <img src="../img/hola.png" class="center-block img-responsive">
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
