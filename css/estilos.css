@@ -249,13 +249,231 @@ top: 5px;
   /*overflow: hidden;*/
 }
 /*-----------nosotros------------*/
+.bannern{
+  /*outline: 2px red solid;*/
+   position: relative;
+   width: 100%;
+    /*height: 407px;*/
+    height:500px;
+    background: url('../img/bannern.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.containern {
+  /*border: 2px red solid;*/
+  /*display: flex;*/
+  margin-top: 1%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  text-align: center;
+  /*min-height: 100vh;*/
+}
 .submenu{
   width: 95%;
   margin:0 auto;
 }
+.textobanner{
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(245,223,56);
+  margin: 0 auto;
+  /*margin-left: 2%;*/
+  margin-top: 2%;
+}
 
+ .precios {
+     margin-top: 2%;
+     /*outline: 2px red solid;*/
+     width: 100%;
+     /*margin-bottom: 5%;*/
+ }
+ 
+ .conten-precios {
+     /*outline: 2px green solid;*/
+     width: 75%;
+     margin: 0 auto;
+     /*margin-bottom: 2%;*/
+     overflow: hidden;
+     /*text-align: center;*/
+ }
+ 
+ .tabla-precios {
+     background-color: #F1F5EE;
+     /*border: 2px red solid;*/
+     float: left;
+     width: 315px;
+     margin-bottom: 5%;
+     margin-top: 3%;
+     /*margin: 0 10px;*/
+     /*margin: 0 auto;*/
+     margin-left: 2%;
+     text-align: center;
+     -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+     -moz-transition: all 0.25s ease;
+     -webkit-transition: all 0.25s ease;
+     -o-transition: all 0.25s ease;
+     transition: all 0.25s ease;
+     height: 315px;
+ }
+ 
+ .tabla-precios:hover {
+     -moz-transition: transform: scale(1.06);
+     -webkit-transition: transform: scale(1.06);
+     -o-transition: transform: scale(1.06);
+     transform: scale(1.06);
+     background-color: rgb(19,41,58);
+     color: #fff;
+ }
+ 
+ /*.tabla-precios:hover #circulo {
+     background-color: black;
+ }
+ 
+ .tabla-precios:hover #circulo p {
+     color: white;
+ }
+ 
+ .tabla-precios:hover .pricing-title2 {
+     color: #508A28;
+ }*/
+ .tabla-precios h1{
+  width: 95%;
+  margin:0 auto;
+  margin-top: 5%;
+  border-bottom: 1px red solid; 
+  padding-bottom: 5%; 
+  font-size: 25px;
+  margin-bottom: 8%;
+ }
+ .tabla-precios:hover h1 {
+     border-bottom: 1px rgb(220,220,220) solid; 
+   }
+  .textm{
+    padding: 0% 5% 0% 5%;
+  }
+
+  .icono{
+    /*border: 2px red solid;*/
+  }
 /*--------------------servicios---------------*/
+.banners{
+  /*outline: 2px red solid;*/
+   position: relative;
+   width: 100%;
+    /*height: 407px;*/
+    height:500px;
+    background: url('../img/servicioss.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.fondos p{
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(245,223,56);
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 12%;
+}
 
+.services_panel .panel{
+  min-height: 377px;
+  border: 1px solid #eea236;
+  border-top:3px solid #eea236 !important;
+  background: #fbfbfb;
+  margin-top:10%;
+}
+.services_panel .panel img{
+  width:115px;
+}
+/*.services_panel .panel .btn{
+  width: 235px;
+  margin-top: 25px;
+  background: #f2f2f2;
+  color: #333;
+  border-bottom: 3px solid #e6e6e6;
+}
+.services_panel .panel .btn:hover{
+  border-bottom: 2px solid #e6e6e6;
+}*/
+.containers {
+  /*border: 2px red solid;*/
+  /*display: flex;*/
+  margin-top: 4%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  text-align: center;
+  /*min-height: 100vh;*/
+}
 
 /*-------------contacto-----------*/
-
+.mapa{
+  width: 100%;
+}
+.mapa iframe{
+  width: 100%;
+}
+.contendatos{
+  width: 100%;
+  height: auto;
+  /*background-color: rgb(19,41,58);*/
+  background-color: rgb(215,14,22);
+  overflow: hidden;
+  /*padding-bottom: 3%;*/
+}
+.conten{
+  /*border: 2px black solid;*/
+  width: 85%;
+  margin:0 auto;
+   /*padding-bottom: 3%;*/
+}
+.cuadro{
+  width: 32%;
+  /*border: 2px white solid;*/
+  float: left;
+  text-align: center;
+   /*padding-bottom: 3%;*/
+   padding-bottom:  20px;
+}
+.cuadro:hover{
+  background-color: #e74c3c;
+}
+.icon{
+  color: #fff;
+  font-size: 65px;
+}
+.horario{
+  color: rgb(245,223,56);
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 2%;
+}
+.lv{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 2%;
+}
+.numeros{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  /*margin-top: 2%;*/
+  padding-bottom: 2%;
+}

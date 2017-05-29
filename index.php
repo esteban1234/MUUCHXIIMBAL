@@ -41,7 +41,7 @@
         <li><a href="index.php">INICIO</a></li>
         <li><a href="vistas/nosotros.php">NOSOTROS</a></li>
         <li><a href="vistas/servicios.php">SERVICIOS</a></li>
-        <li><a href="vistas/contato.php" class="dentro">CONTACTO</a></li>
+        <li><a href="vistas/contacto.php" class="dentro">CONTACTO</a></li>
       </ul>
     </div>
   </div><!--Fim da coontainer -->
@@ -52,7 +52,7 @@
     <p>El paso primordial para asegurar tu inversión, consultoria y tramites de impacto, factibilidad y supervisión ambiental.</p>
     <!-- <p class="boton"><a class="btn-warning" href="">CONTACTAR</a></p> -->
     <div class="container0">
-      <a class="btn btn-1">CONTACTAR</a>
+      <a href="vistas/contacto.php" class="btn btn-1">CONTACTAR</a>
     </div>
   </article>
 </article>
@@ -70,7 +70,7 @@
             <p>Después de años de experiencia práctica (tanto personal como laboral), nuestro equipo de profesionales apasionados es su única opción!</p>
 
             <div class="container2">
-              <a class="btn btn-1">Saber mas de MUUCHXIIMBAL</a>
+              <a href="vistas/nosotros.php" class="btn btn-1">Saber mas de MUUCHXIIMBAL</a>
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@
 <article class="banner2">
   <p>Consultora técnico legal ambiental formada por profesionales altamente calificados</p>
   <div class="container3">
-    <a class="btn btn-1">Ir a Servicios</a>
+    <a href="vistas/servicios.php" class="btn btn-1">Ir a Servicios</a>
   </div>
 </article>
 

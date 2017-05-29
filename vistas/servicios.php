@@ -1,295 +1,151 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
+<div class="linearriba">
+    <p>
+        CONSULTORIA CIENTIFICA y TECNOLOGICA
+    </p>
+    <p>
+        MEDIO AMBIENTE
+    </p>
+    <p>
+        ARQUITECTURA
+    </p>
+    <p>
+        INGENIERIA
+    </p>
 
-<div class="banners">
-    <article class="fondo">
-        <article class="contenlogomenu">
-            <figure class="imglogo pull-right">
-                <img src="../img/maecvo.png" alt="" class="img-responsive">
-            </figure>
-            <nav class="nav pull-left">
-                <ul>
-                    <li><a href="../index.php">INICIO</a></li>
-                    <li><a href="nosotros.php">NOSOTROS</a></li>
-                    <li class="active"><a href="servicios.php">SERVICIOS</a></li>
-                    <li><a href="contacto.php">CONTACTO</a></li>
-                </ul>
-            </nav>
+</div>
 
-             <div class="icono-fa">
-                <p class="menu-oculta"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></p>
-                <p class="menu-abre"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></p>
+<div id="topo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-ms-6 col-xs-6" id="logo-topo">
+          <!-- <a href="index.php"><h2>LOGO</h2></a> -->
+     <figure class="pull-left">
+        <img src="../img/muuch.png" alt="MUUCHXIIMBAL" class="img-responsive">
+    </figure>
+      </div>
+      <div class="col-md-8 col-ms-6 col-xs-6" id="abre-menu-topo">
+       
+       <a href="#" class="btn-collapse">
+         <div class="lista-collapse"></div>
+         <div class="lista-collapse"></div>
+         <div class="lista-collapse"></div>
+       </a>
+      
+      </div>
+    </div><!--Fim da Row1 -->
+    <div class="row">
+      <ul id="menu-topo">
+        <li><a href="../index.php">INICIO</a></li>
+        <li><a href="nosotros.php">NOSOTROS</a></li>
+        <li><a href="servicios.php">SERVICIOS</a></li>
+        <li><a href="contacto.php" class="dentro">CONTACTO</a></li>
+      </ul>
+    </div>
+  </div><!--Fim da coontainer -->
+</div><!--Fim do topo -->
+
+<article class="submenu">
+    <ol class="breadcrumb">
+      <li><a href="../index.php">INDEX</a></li>
+      <li class="active">SERVICIOS</li>
+    </ol>
+</article>
+
+<article class="banners">
+  <article class="fondos">
+    <p>SERVICIOS CIENTIFICOS Y TECNICOS</p>
+    <!-- <article class="textobanner"><b style="color: #fff;">PRODUCTORA MUUCHXIIMBAL S.A. de C.V.</b>  es una empresa de consultoría científica y técnica del medio ambiente, asesorando empresas del ramo constructor con gran éxito, obteniendo como resultado la consolidación en el mercado de la asesoría ambiental y servicios ambientales.</article> -->
+    <div class="containers">
+      <a href="contacto.php" class="btn btn-1">CONTACTAR</a>
+    </div>
+  </article>
+</article>
+
+<div class="container services_panel">
+    <div class="row">
+        <div class="row">
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Ingeniería Ambiental</h3>
+                <p>La ingeniería ambiental se define como el estudio de los problemas ambientales sin descuidar las cuestiones vinculadas a la ecología, la economía y los temas sociales, siempre con un enfoque de sostenibilidad para las generaciones futuras.</p>
+                <img src="../img/ingenieria-amb.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
             </div>
-        </article>
-        <article class="mensajes"><strong>¡Soluciones empresariales! </strong>Te ayudamos al desarrollo de tu empresa a través de la capacitación y consultoría con metodologías innovadoras y basadas en tecnología.</article>
-
-        <article class="boton">
-            <a href="contacto.php">CONTÁCTANOS</a>
-        </article>
-    </article>
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Impacto Ambiental</h3>
+                <p>"Modificación del ambiente ocasionada por la acción del hombre o de la naturaleza". Ofrecemos este servicio hacía los impactos ambientales que eventualmente podrían ser provocados por obras o actividades que se encuentran en etapa de proyecto (impactos potenciales, o sea que no han sido iniciadas.</p>
+                <img src="../img/impacto.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Cursos de Capacitación</h3>
+                <p>aportar a las organizaciones un plan de desarrollo medioambiental para su plantilla. Antes de ofertar cualquier curso, realizamos una serie de entrevistas para identificar las necesidades y expectativas formativas de la organización, elaborar el programa formativo acorde a sus necesidades, definir las acciones a realizar e implementar el plan definido.</p>
+                <img src="../img/curso.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Auditorias Ambientales</h3>
+                <p>Asesorar a las empresas en la implantación de un Sistema de gestión Ambiental. Tener un sistema de gestión ambiental certificado supone para la empresa una serie de beneficios de mercado, económicos, de mejora de la imagen.</p>
+                <img src="../img/auditioria.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<h1 style="margin-top: 5%;" class="text-center">SERVICIOS</h1>
-
-<div class="container contserv">
+<div class="container services_panel">
     <div class="row">
-        <!-- Boxes de Acoes -->
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-thumbs-o-up"></i></div>
-                    <div class="info">
-                        <h3 class="title">Proyectos empresariales</h3>
-                        <p>
-                            1. Análisis organizacional <br><br>
-
-                            2. Valuación de puestos <br><br>
-
-                            3. Mapeo de procesos
-                        </p>
-                        <!-- <div class="more">
-                            <a href="#" title="Title Link">
-                                Read More <i class="fa fa-angle-double-right"></i>
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
+        <div class="row">
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Proyectos de Ingeniería e Investigación</h3>
+                <p>Servicio que ofrecemos antes de implantar una planta de tratamiento de aguas residuales o una planta de tratamiento de residuos. Conocemos las plantas más modernas y eficientes, realizamos evaluaciones ambientales de todo tipo de inversión y podemos contribuir en el diseño y selección de la maquinaria más eficiente, consiguiendo las mejores ofertas de diferentes fabricantes.</p>
+                <img src="../img/proye.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Gestión de Licencias y Trámites Ambientales</h3>
+                <p>Lo apoyamos en el trámite y lo que está obligado a presentar ante las instituciones Federales, Estatales y Municipales.</p>
+                <img src="../img/licencia.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Consultoría Medioambiental</h3>
+                <p>Asesoramientro en: <br><br>
+                * Implantación de sistemas de gestión <br> 
+                * Tramites Ambientales <br>
+                * Estudios de Impacto Ambiental <br>
+                * Asesoramiento en legislación ambiental <br>
+                * Formación en temas ambientales</p>
+                <img src="../img/consultoria.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="panel text-center">
+                <h3>Muestreo y Análisis de Contaminantes Ambientales</h3>
+                <p>El muestreo se define como la actividad por la cual se toman ciertas muestras de una población de elementos de los cuales vamos a tomar criterios de decisión. El muestreo es importante porque a través de él podemos hacer análisis de situaciones de una empresa o de algún campo de la sociedad.</p>
+                <img src="../img/muestreo.png" class="center-block img-responsive">
+                <!-- <button class="btn center-block">Read More</button> -->
+              </div>
+            </div>
         </div>
-            
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-flag"></i></div>
-                    <div class="info">
-                        <h3 class="title">Valuación de empresas</h3>
-                        <p>
-                            1. Asesoría para crear un producto o un servicio <br><br>
-
-                            2. Descripción de modelos de negocio <br><br>
-
-                            3. Asesoría para el desarrollo
-                        </p>
-                        <!-- <div class="more">
-                            <a href="#" title="Title Link">
-                                Read More <i class="fa fa-angle-double-right"></i>
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-            
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-desktop"></i></div>
-                    <div class="info">
-                        <h3 class="title">Consultoria en Tecnología de la Información</h3>
-                        <p>
-                            1. Gestionamos equipos tales: <br> <br>
-
-                                – Equipo de cómputo <br>
-
-                                – Pantallas <br>
-
-                                – Sistemas de telecomunicación
-                        </p>
-                        <!-- <div class="more">
-                            <a href="#" title="Title Link">
-                                Read More <i class="fa fa-angle-double-right"></i>
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-calculator"></i></div>
-                    <div class="info">
-                        <h3 class="title">Consultoria de Contabilidad</h3>
-                        <p class="new-diseño">
-                            Los servicios de contabilidad están diseñados para que se constituyan en un verdadero soporte administrativo, sobre el cual el empresario o comerciante pueda realizar netamente su actividad productiva, con la confianza que cuenta con una empresa de especialistas que se encargará de hacer las tareas contables oportunamente y dentro de las disposiciones legales vigentes.
-                        </p>
-                        <!-- <div class="more">
-                            <a href="#" title="Title Link">
-                                Read More <i class="fa fa-angle-double-right"></i>
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-university"></i></div>
-                    <div class="info">
-                        <h3 class="title">Consultoria Fiscal</h3>
-                        <p class="new-diseño">
-                            Son las acciones de orden preventivo que se han organizado en la planeación de los negocios y empresas para lograr que el cumplimiento de las obligaciones tributarias sea oportuno, apegado a la ley y al menor costo alternativo posible.
-                        </p>
-                        <!-- <div class="more">
-                            <a href="#" title="Title Link">
-                                Read More <i class="fa fa-angle-double-right"></i>
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-gavel"></i></div>
-                    <div class="info">
-                        <h3 class="title">Consultoria Legal</h3>
-                        <p class="new-diseño">
-                            El propósito de las consultorias legales es obtener información sobre la cual se pueda soportar una opinión de la situación del estado legal de una empresa y así mantener informados de manera precisa a los socios o accionistasprecisando las fortalezas y debilidades de la empresa, bajo la aplicación del derecho corporativo en México.
-                        </p>
-                        <!-- <div class="more">
-                            <a href="#" title="Title Link">
-                                Read More <i class="fa fa-angle-double-right"></i>
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div> 
-</div> 
-</div> 
-
-<div class="bannermercados">
-<h1 style="margin-top: 2%; color: #000;" class="text-center new-tamaño">Mercados a los que servimos</h1>
-
-<div class="container contserv">
-    <div class="row">
-        <!-- Boxes de Acoes -->
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-plane"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">AEROLINEAS</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-plus-square"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">HOSPITALES</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-gavel"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">NOTARIAS</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <!-- Boxes de Acoes -->
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-bullhorn"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">MARKETING</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-cogs"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">MAQUILADORAS</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-television"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">DISEÑADORES</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-truck"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">COMERCIALIZADORAS</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-building-o"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">CONSTRUCTORAS</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">                           
-                <div class="icon">
-                    <div class="image"><i class="fa fa-wifi"></i></div>
-                    <div class="info">
-                        <h3 style="color: #000;" class="title">TELECOMUNICACIONES</h3>
-                    </div>
-                </div>
-                <div class="space"></div>
-            </div> 
-        </div>
-</div> 
-</div> 
-    
+    </div>
 </div>
-
 
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>

@@ -42,7 +42,7 @@
         <li><a href="../index.php">INICIO</a></li>
         <li><a href="nosotros.php">NOSOTROS</a></li>
         <li><a href="servicios.php">SERVICIOS</a></li>
-        <li><a href="contato.php" class="dentro">CONTACTO</a></li>
+        <li><a href="contacto.php" class="dentro">CONTACTO</a></li>
       </ul>
     </div>
   </div><!--Fim da coontainer -->
@@ -55,16 +55,91 @@
 	</ol>
 </article>
 
-<article class="banner">
+<article class="bannern">
   <article class="fondo">
-    <p>El paso primordial para asegurar tu inversión, consultoria y tramites de impacto, factibilidad y supervisión ambiental.</p>
-    <!-- <p class="boton"><a class="btn-warning" href="">CONTACTAR</a></p> -->
-    <div class="container0">
-      <a class="btn btn-1">CONTACTAR</a>
+    <p>Auditamos, Capacitamos, Tramitamos y Analizamos.</p>
+    <article class="textobanner"><b style="color: #fff;">PRODUCTORA MUUCHXIIMBAL S.A. de C.V.</b>  es una empresa de consultoría científica y técnica del medio ambiente, asesorando empresas del ramo constructor con gran éxito, obteniendo como resultado la consolidación en el mercado de la asesoría ambiental y servicios ambientales.</article>
+    <div class="containern">
+      <a href="contacto.php" class="btn btn-1">CONTACTAR</a>
     </div>
   </article>
 </article>
 
+ <article class="precios">
+  <article class="conten-precios">
+
+    <article class="tabla-precios">
+      <h1>Beneficios y Ventajas</h1>
+      <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Servicio Oportuno y Rapidez en la atención.</p>
+      <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Financiamiento ajustado a tus necesidades.</p>
+      <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Excelente comunicación externa e interna.</p>
+      <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Capacitación y actualización continua.</p>
+      <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Contamos con personal capacitado.</p>
+      <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Atención Personalizada.</p>        
+    </article>
+
+    <article class="tabla-precios">
+      <h1>Misión</h1>
+      <p class="textm">Prevenir y solucionar problemas generados por actividades comerciales e industriales en gestión ambiental, protección al ambiente, seguridad y salud en el trabajo, cumpliendo claramente con la normatividad nacional en materia ambiental y laboral.</p>        
+    </article>
+
+    <article class="tabla-precios">
+      <h1>Visión</h1>
+      <p class="textm">Ser líder en el mercado de gestión ambiental, innovando y perfeccionando los nuevos retos de nuestros y futuros clientes, mejorando dia a dia el servicio garantizando y respondiendo a las exigencias de los clientes.</p>        
+    </article>
+
+    </article>
+</article>
+
+
+<!-- <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i> -->
+
+<div class="section">
+<div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 style="color: rgb(215,14,22);" class="text-center">VALORES</h1>
+            <p class="text-center">Bien hecho es mejor</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 icono">
+            <i class="fa fa-cog fa-spin fa-5x fa-fw pull-right"></i>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-left">Responsabilidad</h3>
+            <p class="text-left">Cumplir de manera fehaciente los servicios que brindamos para satisfacer a nuestros clientes.</p>
+          </div>
+          <div class="col-md-2 icono">
+            <i class="fa fa-sign-language fa-spin fa-5x fa-fw pull-right"></i>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-left">Compromiso</h3>
+            <p class="text-left">Estar comprometidos con el proyecto del cliente de principio a fin.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 icono">
+            <i class="fa fa-refresh fa-spin fa-5x fa-fw pull-right"></i>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-left">Cofidencialidad</h3>
+            <p class="text-left">Cumplir siempre con nuestras normas establecidas de seguridad en la información a plenitud</p>
+          </div>
+          <div class="col-md-2 icono">
+            <i class="fa fa-star fa-spin fa-5x fa-fw pull-right"></i>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3 class="text-left">Trabajo en equipo</h3>
+            <p class="text-left">Contamos con un equipo idóneo y capacitado que genera valor y confianza entre todos los compañeros.</p>
+          </div>
+        </div>
+
+        </div>
+    </div>
+    <br><br>
+    
+  
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.js"></script>
