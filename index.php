@@ -60,11 +60,10 @@
 <div class="section" style="margin-top: 2%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/construc.jpg"
-            class="img-responsive">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img src="img/construc.jpg" class="img-responsive">
           </div>
-          <div class="col-md-6 texto">
+          <div class="col-xs-12 col-sm-12 col-md-6 texto">
             <h1 style="color: rgb(58,58,58);">¿PORQUE <b style="color: rgb(245,223,56)">MUUCHXIIMBAL</b>?</h1>
             <h3 style="color: rgb(58,58,58);"><b style="color: rgb(245,223,56)">MUUCHXIIMBAL</b> te da el respaldo y seguridad que necesitas para lograr tus objetivos. </h3>
             <p>Después de años de experiencia práctica (tanto personal como laboral), nuestro equipo de profesionales apasionados es su única opción!</p>
