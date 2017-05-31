@@ -101,9 +101,8 @@
             <p class="text-left">Las actividades donde se manejan o utilizan sustancias peligrosas, requieren la presentación de un Estudio de Riesgo Ambiental.</p>
           </div>
 
-          <div class="col-xs-12 col-sm-12 col-md-2">
-            <img src="img/servicios.jpg"
-            class="img-rounded img-responsive">
+          <div class="col-xs-12 col-sm-12 col-md-2 espacio">
+            <img src="img/servicios.jpg" class="img-rounded img-responsive">
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4">
             <h3 class="text-left">SERVICIOS AMBIENTALES</h3>
@@ -121,7 +120,8 @@
             <h3 class="text-left">Ingeniería Ambiental</h3>
             <p class="text-left">Estudio de los problemas ambientales sin descuidar las cuestiones vinculadas a la ecología, la economía y los temas sociales, siempre con un enfoque de sostenibilidad para las generaciones futuras.</p>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-2">
+
+          <div class="col-xs-12 col-sm-12 col-md-2 espacio">
             <img src="img/auditoria.png"
             class="img-rounded img-responsive">
           </div>
