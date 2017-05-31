@@ -32,12 +32,14 @@
 		font-size: 20px;
 	}
 
-	.fondo p{
-		font-size: 20px;
+	.fondo p, .fondo article{
+		font-size: 15px;
 		text-align: justify;
 		width: 100%;
-		padding: 2%;
+		padding: 5%;
 	}
+
+
 
 	.fondos p{
 		font-size: 20px;
@@ -247,11 +249,11 @@
 		font-size: 20px;
 	}
 
-	.fondo p{
-		font-size: 20px;
+	.fondo p, .fondo article{
+		font-size: 15px;
 		text-align: justify;
 		width: 100%;
-		padding: 2%;
+		padding: 5%;
 	}
 
 	.fondos p{
@@ -356,7 +358,7 @@
 
 	footer p{
 		width: 100%;
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	footer .foot-textsecond{
