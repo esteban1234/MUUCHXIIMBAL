@@ -103,33 +103,33 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 icono">
+          <div class="col-xs-12 col-sm-2 col-md-2 icono">
             <i class="fa fa-cog fa-spin fa-5x fa-fw pull-right"></i>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-4 col-md-4">
             <h3 class="text-left">Responsabilidad</h3>
             <p class="text-left">Cumplir de manera fehaciente los servicios que brindamos para satisfacer a nuestros clientes.</p>
           </div>
-          <div class="col-md-2 icono">
+          <div class="col-xs-12 col-sm-2 col-md-2 icono">
             <i class="fa fa-sign-language fa-spin fa-5x fa-fw pull-right"></i>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-4 col-md-4">
             <h3 class="text-left">Compromiso</h3>
             <p class="text-left">Estar comprometidos con el proyecto del cliente de principio a fin.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 icono">
+          <div class="col-xs-12 col-sm-2 col-md-2 icono">
             <i class="fa fa-refresh fa-spin fa-5x fa-fw pull-right"></i>
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-4 col-md-4">
             <h3 class="text-left">Cofidencialidad</h3>
             <p class="text-left">Cumplir siempre con nuestras normas establecidas de seguridad en la información a plenitud</p>
           </div>
-          <div class="col-md-2 icono">
+          <div class="col-xs-12 col-sm-2 col-md-2 icono">
             <i class="fa fa-star fa-spin fa-5x fa-fw pull-right"></i>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-xs-12 col-sm-4 col-md-4 text-center">
             <h3 class="text-left">Trabajo en equipo</h3>
             <p class="text-left">Contamos con un equipo idóneo y capacitado que genera valor y confianza entre todos los compañeros.</p>
           </div>

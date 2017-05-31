@@ -1,4 +1,5 @@
 @media screen and (max-width: 480px){
+	/*****************DISEÑO INDEX************************/
 	.linearriba{
 		text-align: center;
 		height: 100%;
@@ -16,21 +17,190 @@
  
 	}
 	
-	.banner, .fondo{
+	.banner, .bannern, .banners{
 		height: 350px;
+	}
+	
+
+	.banner article, .bannern article{
+		height: 550px;
+	}
+
+	.textobanner{
+		text-align: justify;
+		width: 95%;
+		font-size: 20px;
 	}
 
 	.fondo p{
 		font-size: 20px;
 		text-align: justify;
 		width: 100%;
-		padding: 5%;
-	}
-	
-	.texto{
-		border: 2px solid yellow;
+		padding: 2%;
 	}
 
+	.fondos p{
+		font-size: 20px;
+		width: 100%;
+		padding: 2%;
+	}
+	
+	
+
+	.texto h1{
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.texto h3{
+		font-size: 15px;
+		text-align: justify;
+	}
+
+	.texto p{
+		text-align: justify;
+	}
+	
+	.container2{
+		text-align: center;
+		padding: 2% !important;
+	}
+
+	.container2 a{
+		padding: 2%;
+	}
+
+	.banner2, .fondo{
+		height: 270px;
+	}
+
+	.banner2 p{
+		font-size: 20px;
+		text-align: justify;
+		width: 100%;
+		padding: 5%;
+	}
+
+	.banner2 .container3{
+		text-align: center;
+		width: 100%;
+	}
+
+	.container3 a{
+		padding: 3%;
+	}
+
+	.text-responsive h1{
+		font-size: 23px; 
+	}
+
+	.col-xs-12 img{
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+
+	.col-xs-12 h3{
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.col-xs-12 p{
+		text-align: justify;
+		padding-bottom: 5%;
+	}
+
+	/*****************END DISEÑO INDEX*****************/
+
+	/*****************DISEÑO NOSOTROS*****************/
+	.conten-precios{
+		width: 90%;
+	}
+
+	.tabla-precios{
+		width: 100%;
+		margin: 5% 0px;
+		height: 100%;
+	}
+
+	.textm{
+		text-align: justify;
+	}
+
+	.icono i{
+		float: none !important;
+		/*margin: 0 auto;*/
+		width: 100%;
+	}
+	/*****************END DISEÑO NOSOTROS*****************/
+
+	/*****************DISEÑO SERVICIO*****************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 18px;
+	}
+
+	footer .foot-textsecond{
+		text-align: justify;
+		padding: 3%;
+	}
+	/*****************END DISEÑO SERVICIO*****************/
+	.panel{
+		border: 2px solid red;
+		width: 95%;
+		margin: auto;
+	}
+
+	.panel p{
+		padding: 2% 5%;
+	}
+
+	/*****************DISEÑO CONTACTO*****************/
+	.text-contacto{
+		font-size: 25px;
+		padding: 3%;
+		color: #000 !important;
+	}
+
+	.line-salto{
+		padding-bottom: 5%;
+	}
+
+	.btn-enviar{
+		float: none !important;
+		padding: 3%;
+		width: 50%;
+	}
+	
+	.cuadro{
+		/*border: 2px solid green;*/
+		width: 100%;
+	}
+
+	.cuadro:not(.nohover):hover{
+	  background-color: #e74c3c;
+	}
+	/*****************END DISEÑO CONTACTO*****************/
+	
+	/*****************DISEÑO FOOTER*****************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 18px;
+	}
+
+	footer .foot-textsecond{
+		text-align: justify;
+		padding: 3%;
+	}
+	/*****************END DISEÑO FOOTER*****************/
 
 }
 

@@ -86,25 +86,26 @@
 <div style="margin-top: 2%; margin-bottom: 2%;" class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 text-responsive">
             <h1 class="text-center" style="color: rgb(215,14,22);">Algunos de nuestros servicios</h1>
             <p class="text-center" style="color: rgb(19,41,58);">Impulsamos el desarrollo sustentable</p>
           </div>
         </div>
         <div class="row" style="margin-top: 2%;">
-          <div class="col-md-2">
+          <div class="col-xs-12 col-sm-12 col-md-2">
             <img src="img/estudios2.jpg"
             class="img-rounded img-responsive">
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-12 col-md-4">
             <h3 class="text-left">ESTUDIOS DE RIESGO AMBIENTAL</h3>
             <p class="text-left">Las actividades donde se manejan o utilizan sustancias peligrosas, requieren la presentación de un Estudio de Riesgo Ambiental.</p>
           </div>
-          <div class="col-md-2">
+
+          <div class="col-xs-12 col-sm-12 col-md-2">
             <img src="img/servicios.jpg"
             class="img-rounded img-responsive">
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-12 col-md-4">
             <h3 class="text-left">SERVICIOS AMBIENTALES</h3>
             <p class="text-left">* Programas de mejores práticas de manejo. <br>
                                   * Gestión de trámites y apoyos ante dependencias. <br>
@@ -113,19 +114,18 @@
           </div>
         </div>
         <div class="row" style="margin-top: 2%;">
-          <div class="col-md-2">
-            <img src="img/ingenieria2.jpg"
-            class="img-rounded img-responsive">
+          <div class="col-xs-12 col-sm-12 col-md-2">
+            <img src="img/ingenieria2.jpg" class="img-responsive img-rounded ">
           </div>
-          <div class="col-md-4">
+          <div class="col-xs-12 col-sm-12 col-md-4">
             <h3 class="text-left">Ingeniería Ambiental</h3>
             <p class="text-left">Estudio de los problemas ambientales sin descuidar las cuestiones vinculadas a la ecología, la economía y los temas sociales, siempre con un enfoque de sostenibilidad para las generaciones futuras.</p>
           </div>
-          <div class="col-md-2">
+          <div class="col-xs-12 col-sm-12 col-md-2">
             <img src="img/auditoria.png"
             class="img-rounded img-responsive">
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-xs-12 col-sm-12 col-md-4 text-center">
             <h3 class="text-left">Auditorias Ambientales</h3>
             <p class="text-left">Asesorar a las empresas en la implantación de un Sistema de gestión Ambiental. Tener un sistema de gestión ambiental certificado supone para la empresa una serie de beneficios de mercado, económicos, de mejora de la imagen.</p>
           </div>

@@ -54,26 +54,25 @@
     </ol>
 </article>
 
-<h1 style="text-align: center; color: rgb(215,14,22); font-family:'Ubuntu', sans-serif; margin-top: 2%; margin-bottom:2%;">EMPECEMOS AHORA</h1>
+<h1 style="text-align: center; color: rgb(215,14,22); font-family:'Ubuntu', sans-serif; margin-top: 2%; margin-bottom:2%;" class="text-contacto">EMPECEMOS AHORA</h1>
 
 <div class="container">
     <form class="well col-sm-12 col-md-12">
         <div class="row">
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-4 line-salto">
                 <label>Nombre Completo</label>
-                <input class="form-control" placeholder="Escribe tu Nombre" type="text">
+                <input class="form-control" placeholder="Escribe tu Nombre" type="text"><br>
                 <label>Teléfono</label>
-                <input class="form-control" placeholder="Escribe tu Apellido" type="text">
+                <input class="form-control" placeholder="Escribe tu Apellido" type="text"><br>
                 <label>Email</label>
                 <input class="form-control" placeholder="Escribe tu Correo" type="text">
-                
             </div>
     
             <div class="col-sm-8 col-md-8">
                 <div class="form-group">
                     <label>Comentario</label> 
                     <textarea class="col-sm-3 col-md-3 form-control" placeholder="Escribe tu Comentario" id="message" name="message" rows="6"></textarea>
-                    <button class="btn btn-danger pull-right" type="submit">Enviar</button>
+                    <button class="btn btn-danger pull-right btn-enviar" type="submit">Enviar</button>
                 </div>
             </div>            
         </div>

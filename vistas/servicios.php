@@ -67,7 +67,7 @@
 <div class="container services_panel">
     <div class="row">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Ingeniería Ambiental</h3>
                 <p>La ingeniería ambiental se define como el estudio de los problemas ambientales sin descuidar las cuestiones vinculadas a la ecología, la economía y los temas sociales, siempre con un enfoque de sostenibilidad para las generaciones futuras.</p>
@@ -75,7 +75,7 @@
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Impacto Ambiental</h3>
                 <p>"Modificación del ambiente ocasionada por la acción del hombre o de la naturaleza". Ofrecemos este servicio hacía los impactos ambientales que eventualmente podrían ser provocados por obras o actividades que se encuentran en etapa de proyecto (impactos potenciales, o sea que no han sido iniciadas.</p>
@@ -83,7 +83,7 @@
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Cursos de Capacitación</h3>
                 <p>aportar a las organizaciones un plan de desarrollo medioambiental para su plantilla. Antes de ofertar cualquier curso, realizamos una serie de entrevistas para identificar las necesidades y expectativas formativas de la organización, elaborar el programa formativo acorde a sus necesidades, definir las acciones a realizar e implementar el plan definido.</p>
@@ -91,7 +91,7 @@
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Auditorias Ambientales</h3>
                 <p>Asesorar a las empresas en la implantación de un Sistema de gestión Ambiental. Tener un sistema de gestión ambiental certificado supone para la empresa una serie de beneficios de mercado, económicos, de mejora de la imagen.</p>
@@ -106,7 +106,7 @@
 <div class="container services_panel">
     <div class="row">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Proyectos de Ingeniería e Investigación</h3>
                 <p>Servicio que ofrecemos antes de implantar una planta de tratamiento de aguas residuales o una planta de tratamiento de residuos. Conocemos las plantas más modernas y eficientes, realizamos evaluaciones ambientales de todo tipo de inversión y podemos contribuir en el diseño y selección de la maquinaria más eficiente, consiguiendo las mejores ofertas de diferentes fabricantes.</p>
@@ -114,7 +114,7 @@
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Gestión de Licencias y Trámites Ambientales</h3>
                 <p>Lo apoyamos en el trámite y lo que está obligado a presentar ante las instituciones Federales, Estatales y Municipales.</p>
@@ -122,7 +122,7 @@
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Consultoría Medioambiental</h3>
                 <p>Asesoramientro en: <br><br>
@@ -135,7 +135,7 @@
                 <!-- <button class="btn center-block">Read More</button> -->
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <div class="panel text-center">
                 <h3>Muestreo y Análisis de Contaminantes Ambientales</h3>
                 <p>El muestreo se define como la actividad por la cual se toman ciertas muestras de una población de elementos de los cuales vamos a tomar criterios de decisión. El muestreo es importante porque a través de él podemos hacer análisis de situaciones de una empresa o de algún campo de la sociedad.</p>
@@ -145,7 +145,7 @@
             </div>
         </div>
     </div>
-</div>
+</div><br>
 
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
